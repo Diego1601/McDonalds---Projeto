@@ -4,7 +4,7 @@ Esta Home do Site McDonalds foi um desafio proposto pela empresa Vai Na Web que 
 
 ## Tecnologias usadas:
 
-- [React + Javascript]
+- [React + Javascript] - (com VITE)
 - [Html5]
 - [Styled Components]
 
