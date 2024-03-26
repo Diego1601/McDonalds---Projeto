@@ -9,30 +9,6 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 justify-content: space-evenly;
-
-@media (max-width: 1371px) {
-    height: 280vh;
-}
-
-@media (max-width: 1161px) {
-    height: 250vh;
-}
-
-@media (max-width: 1091px) {
-    height: 230vh;
-}
-
-@media (max-width: 913px) {
-    height: 210vh;
-}
-
-@media (max-width: 801px) {
-    height: 200vh;
-}
-
-@media (max-width: 555px) {
-    height: 180vh;
-}
 `;
 
 export const section = styled.section`
@@ -67,63 +43,6 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
 }
-
-@media (max-width: 1090px) {
-    img {
-        width: 30%;
-    }
-
-    h1 {
-        font-size: 5.5vw;
-    }
-}
-
-@media (max-width: 937px) {
-   img {
-        width: 35%;
-        height: 290px;
-    }
-
-    h1 {
-        width: 80%;
-        font-size: 6vw;
-        text-align: center;
-    }
-}
-
-@media (max-width: 797px) {
-
-   img {
-        width: 30%;
-        height: 220px;
-    }
-
-    h1 {
-        width: 70%;
-        font-size: 6.5vw;
-        text-align: center;
-    }
-}
-
-@media (max-width: 555px) {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   justify-content: space-around;
-   flex-direction: column-reverse;
-   margin-top: 0px;
-
-   img {
-        width: 30%;
-        height: 260px;
-    }
-
-    h1 {
-        width: 90%;
-        font-size: 7.5vw;
-        text-align: center;
-    }
-}
 `;
 
 export const ColorH1 = styled.span`
@@ -140,26 +59,6 @@ justify-content: space-evenly;
 img {
     width: 6vw;
 }
-
-@media (max-width: 1090px) {
-    img {
-        width: 7vw;
-    }
-}
-
-@media (max-width: 787px) {
-    img {
-        width: 9vw;
-    }
-}
-
-@media (max-width: 543px) {
-    img {
-        width: 11vw;
-    }
-}
-
-
 `;
 
 export const sectionCards = styled.section`
@@ -171,37 +70,12 @@ export const sectionCards = styled.section`
     align-items: center;
     flex-wrap: wrap;
     background-color: #feb706;
+
         h2 {
         color: white;
         text-align: center;
         font-size: 3vw;
         width: 100%;
-    }
-
-    @media (max-width: 1090px) {
-    
-    h2  {
-        font-size: 4vw;
-    }
-    }
-
-    @media (max-width: 909px) {
-    height: 20%;
-    }
-
-    @media (max-width: 731px) {
-    height: 20%;
-    }
-
-    @media (max-width: 577px) {
-   height: 15%; 
-    }
-
-    @media (max-width: 515px) {
-        height: 15%;
-    h2  {
-        font-size: 6vw;
-    }
     }
 `;
 
@@ -218,32 +92,14 @@ export const Card = styled.div`
     justify-content: space-between;
     img {
         width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
         
     }
 
     img:hover {
         opacity: 0.5;
         transition: 0.5s;
-    }
-
-    @media (max-width: 1293px) {
-        height: 40vh;
-    }
-
-    @media (max-width: 1095px) {
-        height: 35vh;
-    }
-
-    @media (max-width: 909px) {
-        height: 30vh;
-    }
-
-    @media (max-width: 723px) {
-        height: 25vh;
-    }
-
-    @media (max-width: 575px) {
-        height: 17vh;
     }
 `;
 
@@ -270,29 +126,6 @@ export const DivInternaCard = styled.div`
         font-size: 1vw;
         font-weight: 600;
     }
-
-    @media (max-width: 1091px) {
-        height: 60%;
-        button {
-            width: 55%;
-            height: 24%;
-
-        }
-
-        h3 {
-            font-size: 1.5vw;
-        }
-    }
-
-    @media (max-width: 575px) {
-            h3 {
-                margin: 5px;
-            }
-      
-            
-
-    }
-
 `;
 
 export const sectionCardPedido = styled.section`
@@ -307,25 +140,6 @@ export const sectionCardPedido = styled.section`
     .TitleEscolhaPedido {
         font-size: 2.5vw;
         color: white;
-    }
-
-    @media (max-width: 1200px) {
-    .TitleEscolhaPedido  {
-        font-size: 3vw;
-    }
-    }
-
-    @media (max-width: 1090px) {
-    .TitleEscolhaPedido  {
-        font-size: 3.5vw;
-    }
-    }
-
-
-    @media (max-width: 850px) {
-    .TitleEscolhaPedido  {
-        font-size: 4vw;
-    }
     }
 `;
 
@@ -342,33 +156,4 @@ export const divCardPedido = styled.div`
         width: 97%;
         font-size: 1.5vw;
     }
-
-    @media (max-width: 1200px) {
-    h2  {
-        font-size: 1.8vw;
-    }
-    }
-
-    @media (max-width: 1090px) {
-    h2  {
-        font-size: 2.2vw;
-    }
-    }
-
-
-    @media (max-width: 850px) {
-    h2  {
-        font-size: 2.8vw;
-    }
-    }
-
-    @media (max-width: 820px) {
-    height: 28%;
-    }
-
-    @media (max-width: 653px) {
-    height: 25%;
-    }
-
-
 `;

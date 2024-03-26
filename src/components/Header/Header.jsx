@@ -15,9 +15,9 @@ export default function Header() {
         <> 
         <S.header>
             <S.section>
-                <S.divLogo>
-                    <img onClick={Refresh} src={logo} alt="Logo" />
-                </S.divLogo>
+           
+                    <S.imgLogo onClick={Refresh} src={logo} alt="Logo" />
+             
                 <S.divPaiDireita>
                     <S.divFilho1>
                         <img src={app} alt="App" />

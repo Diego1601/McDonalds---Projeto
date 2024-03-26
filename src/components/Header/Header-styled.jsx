@@ -11,121 +11,155 @@ export const GlobalStyle = createGlobalStyle`
 
 export const header = styled.header`
 width: 100%;
-height: 10vh;
+padding: 10px;
 background-color: white;
 display: flex;
 justify-content: center;
 align-items: center;
 position: fixed;
-
-@media (max-width: 1090px) {
-    height: 8vh;
-}
-
-@media (max-width: 724px) {
-    height: 7vh;
-}
-
-@media (max-width: 533px) {
-    height: 6vh;
-}
 `;
 
 export const section = styled.section`
-width: 95%;
-height: 75%;
+max-width: 1921px;
+width: 98%;
 display: flex;
 justify-content: center;
 justify-content: space-between;
 `;
 
-export const divLogo = styled.div`
-width: 120px;
-height: 100%;
-display: flex;
-justify-content: center;
-img {
-    width: 5vw;
+export const imgLogo = styled.img`
+width: 9%;
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+   width: 7%;
 }
 
-@media (max-width: 809px) {
-    img {
-        width: 10vw;
-    }
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+   width: 6%;
+}
+
+@media screen and (min-width: 1201px) and (max-width: 2500px) {
+   width: 5%;
 }
 `;
 
 export const divPaiDireita = styled.div`
-width: 30%;
+width: 55%;
 display: flex;
 justify-content: center;
 justify-content: space-evenly;
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+   width: 50%;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+   width: 45%;
+}
+
+@media screen and (min-width: 1201px) and (max-width: 2500px) {
+   width: 30%;
+}
 `;
 
 export const divFilho1 = styled.div`
-width: 25%;
-height: 100%;
+width: 30%;
 display: flex;
 justify-content: center;
 justify-content: space-evenly;
 align-items: center;
 img {
-    width: 35%;
+    width: 30%;
 }
 
 a, h2 {
-    font-size: 0.6vw;
+    font-size: 1.7vw;
     text-decoration: none;
 }
 
-@media (max-width: 1090px) {
-    width: 50%;
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+   a, h2 {
+    font-size: 1.4vw;
+   }
 
-    img {
-        width: 30%;
-    }
-
-    a, h2 {
-        font-size: 1vw;
-        text-decoration: none;
-    }
+   img {
+    width: 25%;
+   }
+   
 }
 
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    a, h2 {
+    font-size: 1.1vw;
+   }
+   img {
+    width: 20%;
+   }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 2500px) {
+    a, h2 {
+    font-size: 0.8vw;
+   }
+   img {
+    width: 15%;
+   }
+}
 `;
 
 export const divFilho2 = styled.div`
 background-color: #FFC72C;
-width: 45%;
-height: 90%;
+width: 50%;
 display: flex;
 justify-content: center;
 justify-content: space-evenly;
 align-items: center;
 border-radius: 10px;
 img {
-    width: 15%;
+    width: 18%;
 }
 
 a, h2 {
-    font-size: 0.9vw;
+    font-size: 1.7vw;
     text-decoration: none;
     color: black;
     
 }
 
-@media (max-width: 1090px) {
-    width: 50%;
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 
-    img {
-        width: 15%;
-    }
+   a, h2 {
+    font-size: 1.4vw;
+   }
 
+   img {
+    width: 14%;
+   }
+   
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    width: 45%;
     a, h2 {
-        font-size: 1.2vw;
-        text-decoration: none;
-    }
+    font-size: 1.1vw;
+   }
+   img {
+    width: 10%;
+   }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 2500px) {
+    width: 40%;
+    a, h2 {
+    font-size: 0.8vw;
+   }
+
+   img {
+    width: 10%;
+   }
 }
 `;
+
 
 
 
