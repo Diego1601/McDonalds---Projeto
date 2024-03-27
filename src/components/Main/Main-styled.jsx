@@ -2,46 +2,46 @@ import styled from "styled-components"
 
 export const main = styled.main`
 width: 100%;
-height: 300vh;
+padding: 20px;
 background-color: #ffc72c;
 display: flex;
 justify-content: center;
-align-items: center;
 flex-direction: column;
-justify-content: space-evenly;
 `;
 
 export const section = styled.section`
-width: 100%;
-height: 22%;
+width: 95%;
+padding: 20px;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
 flex-direction: column;
-margin-top: 100px;
+border: solid black 2px;
+margin-top: 50px;
 `;
-
 
 export const divSuperior = styled.div`
 width: 100%;
-height: 70%;
 display: flex;
 justify-content: center;
 align-items: center;
 justify-content: space-around;
+flex-direction: column-reverse;
+border: solid black 2px;
 img {
-    width: 25%;
-    height: 400px;
+    width: 50%;
+    border: solid black 2px;
 }
 
 h1 {
-    width: 60%;
-    font-size: 5vw;
+    width: 90%;
+    font-size: 5.8vw;
     color: white;
-    margin: 0 25px 0 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
+    border: solid black 2px;
+    text-align: start;
 }
 `;
 
@@ -70,7 +70,6 @@ export const sectionCards = styled.section`
     align-items: center;
     flex-wrap: wrap;
     background-color: #feb706;
-
         h2 {
         color: white;
         text-align: center;
@@ -92,8 +91,6 @@ export const Card = styled.div`
     justify-content: space-between;
     img {
         width: 100%;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
         
     }
 
