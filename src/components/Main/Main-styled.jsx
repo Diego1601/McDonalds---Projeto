@@ -5,7 +5,7 @@ width: 100%;
 padding: 20px;
 background-color: #ffc72c;
 display: flex;
-justify-content: center;
+align-items: center;
 flex-direction: column;
 `;
 
@@ -30,7 +30,7 @@ justify-content: space-around;
 flex-direction: column-reverse;
 border: solid black 2px;
 img {
-    width: 50%;
+    height: 150px;
     border: solid black 2px;
 }
 
@@ -51,29 +51,31 @@ export const ColorH1 = styled.span`
 
 
 export const divInferior = styled.div`
-width: 40%;
+width: 60%;
 display: flex;
 justify-content: center;
 align-items: center;
 justify-content: space-evenly;
+border: solid black 2px;
 img {
-    width: 6vw;
+    width: 10vw;
 }
 `;
 
 export const sectionCards = styled.section`
-    width: 100%;
-    height: 25%;
+    width: 95%;
+    padding: 20px;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     background-color: #feb706;
+    border: solid black 2px;
         h2 {
         color: white;
         text-align: center;
-        font-size: 3vw;
+        font-size: 5vw;
         width: 100%;
     }
 `;
@@ -83,12 +85,12 @@ export const sectionCards = styled.section`
 
 export const Card = styled.div`
     width: 20vw;
-    height: 45vh;
+    height: 25vw;
+    margin-top: 20px;
     background-color: white;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     img {
         width: 100%;
         
@@ -108,10 +110,14 @@ export const DivInternaCard = styled.div`
     align-items: center;
     justify-content: center;
     justify-content: space-around;
+    border: solid black 2px;
 
     h3 {
-        margin: 20px;
+        margin: 5px;
         text-align: center;
+        font-size: 1.5vw;
+        border: solid black 2px;
+        width: 100%;
     }
     
     button {
@@ -126,31 +132,35 @@ export const DivInternaCard = styled.div`
 `;
 
 export const sectionCardPedido = styled.section`
-    width: 100%;
-    height: 47%;
+    width: 95%;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
+    border: solid black 2px;
 
     .TitleEscolhaPedido {
-        font-size: 2.5vw;
+        font-size: 5vw;
         color: white;
+        width: 100%;
+        text-align: center;
     }
 `;
 
 export const divCardPedido = styled.div`
-    width: 80%;
-    height: 32%;
+    width: 95%;
+    margin: 10px;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    border: solid black 2px;
 
     h2 {
         width: 97%;
-        font-size: 1.5vw;
+        font-size: 3vw;
     }
 `;

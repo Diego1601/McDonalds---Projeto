@@ -31,15 +31,15 @@ export const imgLogo = styled.img`
 width: 9%;
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-   width: 7%;
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
    width: 6%;
 }
 
-@media screen and (min-width: 1201px) and (max-width: 2500px) {
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
    width: 5%;
+}
+
+@media screen and (min-width: 1201px) and (max-width: 2500px) {
+   width: 3%;
 }
 `;
 
@@ -159,12 +159,3 @@ a, h2 {
    }
 }
 `;
-
-
-
-
-
-
-
-
-

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const CardPedido = styled.div`
-    width: 23%;
-    height: 80%;
+    width: 150px;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,10 +12,8 @@ export const CardPedido = styled.div`
     border: solid white 0.5px;
     box-shadow: 3px 1px 1px black;
 
-   
     img {
-        width: 80%;
-        height: 80%;
+        max-width: 80%;
     }
 
     img:hover {
@@ -24,8 +22,10 @@ export const CardPedido = styled.div`
     }
 
     p {
-    margin: 0 20px 0 20px;
-    font-size: 1vw;
+    margin: 0 20px 10px 20px;
+    font-size: 2vw;
+    width: 90%;
+    text-align: center;
     }
 
 `;
