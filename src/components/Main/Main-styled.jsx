@@ -2,7 +2,6 @@ import styled from "styled-components"
 
 export const main = styled.main`
 width: 100%;
-padding: 20px;
 background-color: #ffc72c;
 display: flex;
 align-items: center;
@@ -10,15 +9,14 @@ flex-direction: column;
 `;
 
 export const section = styled.section`
-width: 95%;
+width: 100%;
 padding: 20px;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
 flex-direction: column;
-border: solid black 2px;
-margin-top: 50px;
+margin-top: 10vw;
 `;
 
 export const divSuperior = styled.div`
@@ -28,21 +26,74 @@ justify-content: center;
 align-items: center;
 justify-content: space-around;
 flex-direction: column-reverse;
-border: solid black 2px;
 img {
-    height: 150px;
-    border: solid black 2px;
+    height: 180px;;
 }
 
 h1 {
-    width: 90%;
-    font-size: 5.8vw;
+    width: 100%;
+    font-size: 7.8vw;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    border: solid black 2px;
-    text-align: start;
 }
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    img {
+        height: 250px;
+    }
+
+    h1 {
+        font-size: 8.2vw;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 96%;
+
+    img {
+        height: 240px;
+    }
+
+    h1 {
+        font-size: 4.5vw;
+        width: 58%;
+
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 96%;
+    img {
+        height: 280px;
+    }
+
+    h1 {
+        font-size: 5vw;
+        width: 65%;
+
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1920px) {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 96%;
+    img {
+        height: 340px;
+    }
+
+    h1 {
+        font-size: 5.3vw;
+        width: 65%;
+
+    }
+}
+
 `;
 
 export const ColorH1 = styled.span`
@@ -56,36 +107,72 @@ display: flex;
 justify-content: center;
 align-items: center;
 justify-content: space-evenly;
-border: solid black 2px;
 img {
     width: 10vw;
 }
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    width: 70%;
+    img {
+        width: 14vw;
+    }
+}
+
 `;
 
 export const sectionCards = styled.section`
-    width: 95%;
+    width: 100%;
     padding: 20px;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    flex-direction: column;
     background-color: #feb706;
-    border: solid black 2px;
+    padding: 5vw 0px 5vw 0px;
         h2 {
         color: white;
         text-align: center;
         font-size: 5vw;
         width: 100%;
+        margin-bottom: 1vw;
     }
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    h2 {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    flex-direction: row;
+    h2 {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    flex-direction: row;
+    h2 {
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1920px) {
+    flex-direction: row;
+    h2 {
+        font-size: 3vw;
+    }
+}
 `;
 
 
 /**ESTILO DOS CARDS DA MAIN "PROMOÇÃO" */
 
 export const Card = styled.div`
-    width: 20vw;
-    height: 25vw;
+    width: 55vw;
+    height: 75vw;
     margin-top: 20px;
     background-color: white;
     border-radius: 20px;
@@ -100,6 +187,21 @@ export const Card = styled.div`
         opacity: 0.5;
         transition: 0.5s;
     }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    width: 25vw;
+    height: 30vw;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    width: 25vw;
+    height: 30vw;
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1920px) {
+    width: 25vw;
+    height: 30vw;
+}
 `;
 
 export const DivInternaCard = styled.div`
@@ -110,13 +212,11 @@ export const DivInternaCard = styled.div`
     align-items: center;
     justify-content: center;
     justify-content: space-around;
-    border: solid black 2px;
 
     h3 {
         margin: 5px;
         text-align: center;
-        font-size: 1.5vw;
-        border: solid black 2px;
+        font-size: 4vw;
         width: 100%;
     }
     
@@ -126,27 +226,75 @@ export const DivInternaCard = styled.div`
         border: none;
         border-radius: 10px;
         background-color: #FFBC0D;
-        font-size: 1vw;
+        font-size: 4vw;
         font-weight: 600;
     }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    h3 {
+    font-size: 1.5vw;
+   }
+
+   button {
+    font-size: 1vw;
+   }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    h3 {
+    font-size: 1.5vw;
+   }
+
+   button {
+    font-size: 1vw;
+   }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1920px) {
+    h3 {
+    font-size: 1.5vw;
+   }
+
+   button {
+    font-size: 1vw;
+   }
+}
 `;
 
 export const sectionCardPedido = styled.section`
-    width: 95%;
+    width: 100%;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    border: solid black 2px;
 
     .TitleEscolhaPedido {
         font-size: 5vw;
         color: white;
         width: 100%;
         text-align: center;
+        margin-top: 3vw;
     }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+.TitleEscolhaPedido {
+    font-size: 4.5vw;
+}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+.TitleEscolhaPedido {
+    font-size: 4vw;
+}
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1920px) {
+.TitleEscolhaPedido {
+    font-size: 3.5vw;
+}
+}
 `;
 
 export const divCardPedido = styled.div`
@@ -157,10 +305,38 @@ export const divCardPedido = styled.div`
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    border: solid black 2px;
+    flex-direction: column;
+    margin: 5vw 5vw;
 
     h2 {
-        width: 97%;
-        font-size: 3vw;
+        width: 65%;
+        font-size: 4vw;
     }
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+flex-direction: row;
+margin: 2vw 2vw;
+h2 {
+    width: 95%;
+    font-size: 3vw;
+}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+flex-direction: row;
+margin: 2vw 2vw;
+h2 {
+    width: 93%;
+    font-size: 2vw;
+}
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1920px) {
+flex-direction: row;
+margin: 2vw 2vw;
+h2 {
+    width: 91%;
+    font-size: 1.5vw;
+}
+}
 `;

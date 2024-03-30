@@ -30,6 +30,10 @@ justify-content: space-between;
 export const imgLogo = styled.img`
 width: 9%;
 
+@media screen and (min-width: 480px) and (max-width: 768px) {
+   width: 8%;
+}
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
    width: 6%;
 }
@@ -44,10 +48,14 @@ width: 9%;
 `;
 
 export const divPaiDireita = styled.div`
-width: 55%;
+width: 60%;
 display: flex;
 justify-content: center;
 justify-content: space-evenly;
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+   width: 55%;
+}
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
    width: 50%;
@@ -58,7 +66,7 @@ justify-content: space-evenly;
 }
 
 @media screen and (min-width: 1201px) and (max-width: 2500px) {
-   width: 30%;
+   width: 40%;
 }
 `;
 
@@ -73,8 +81,19 @@ img {
 }
 
 a, h2 {
-    font-size: 1.7vw;
+    font-size: 2vw;
     text-decoration: none;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+   a, h2 {
+    font-size: 1.8vw;
+   }
+
+   img {
+    width: 27%;
+   }
+   
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -116,14 +135,26 @@ justify-content: space-evenly;
 align-items: center;
 border-radius: 10px;
 img {
-    width: 18%;
+    width: 20%;
 }
 
 a, h2 {
-    font-size: 1.7vw;
+    font-size: 2vw;
     text-decoration: none;
     color: black;
     
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+a, h2 {
+ font-size: 1.8vw;
+}
+
+img {
+ width: 17%;
+}
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
