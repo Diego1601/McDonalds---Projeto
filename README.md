@@ -1,4 +1,4 @@
-# McDonalds - Home (EM DESENVOLVIMENTO)
+# McDonalds - Home
 
 Esta Home do Site McDonalds foi um desafio proposto pela empresa Vai Na Web que ministra o curso de Desenvolvimento Web em que estou cursando no momento. Foi satisfatório realizar este desafio, pois, tive a oportunidade de reforçar minhas habilidades e conhecimentos adquiridos durante o curso até o momento. Esta sendo prazeroso participar da comunidade de alunos da Vai Na Web, tanto pelo aprendizado como o compartilhamento de conhecimento entre nós, alunos. 
 
