@@ -31,7 +31,7 @@ img {
 
 h1 {
     width: 100%;
-    font-size: 10vw;
+    font-size: 9vw;
     color: white;
     font-weight: 800;
     text-align: center;
