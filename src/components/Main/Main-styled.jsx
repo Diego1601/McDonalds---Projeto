@@ -272,7 +272,6 @@ export const sectionCardPedido = styled.section`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: space-evenly;
 
     .TitleEscolhaPedido {
