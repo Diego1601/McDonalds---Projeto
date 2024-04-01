@@ -127,6 +127,7 @@ export const sectionCards = styled.section`
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap  
     background-color: #feb706;
     padding: 5vw 0px 5vw 0px;
         h2 {
