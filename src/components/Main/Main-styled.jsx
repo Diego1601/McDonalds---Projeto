@@ -31,10 +31,11 @@ img {
 
 h1 {
     width: 100%;
-    font-size: 8.2vw;
+    font-size: 10vw;
     color: white;
     font-weight: 800;
     text-align: center;
+    border: solid black 2px;
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
@@ -308,7 +309,8 @@ export const divCardPedido = styled.div`
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    margin: 5vw 5vw;
+    flex-wrap: wrap;
+    margin-top: 10vw;
 
     h2 {
         width: 65%;

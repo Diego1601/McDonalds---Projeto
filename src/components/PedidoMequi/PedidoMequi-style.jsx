@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const CardPedido = styled.div`
     width: 55vw;
     height: 70vw;
-    margin: 10px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,6 @@ export const CardPedido = styled.div`
     justify-content: space-evenly;
     border-radius: 10px;
     border: solid white 0.5px;
-    margin-bottom: 40px;
     box-shadow: 3px 1px 1px black;
 
     img {
