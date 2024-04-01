@@ -83,6 +83,7 @@ img {
 a, h2 {
     font-size: 2vw;
     text-decoration: none;
+    color: black;
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {

@@ -32,7 +32,7 @@ img {
 
 h1 {
     width: 100%;
-    font-size: 7.8vw;
+    font-size: 8.2vw;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
