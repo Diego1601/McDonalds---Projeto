@@ -120,12 +120,10 @@ img {
 
 export const sectionCards = styled.section`
     width: 100%;
-    padding: 20px;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
     flex-direction: column;
     background-color: #feb706;
     padding: 5vw 0px 5vw 0px;
