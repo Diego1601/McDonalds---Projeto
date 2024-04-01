@@ -33,7 +33,8 @@ h1 {
     width: 100%;
     font-size: 8.2vw;
     color: white;
-    font-weight: 800;
+    font-weight: 800
+    text-align: center;
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
@@ -43,6 +44,7 @@ h1 {
 
     h1 {
         font-size: 8.2vw;
+        text-align: center;
     }
 }
 
@@ -295,7 +297,6 @@ export const sectionCardPedido = styled.section`
 
 export const divCardPedido = styled.div`
     width: 95%;
-    margin: 10px;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
