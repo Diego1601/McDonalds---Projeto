@@ -279,19 +279,19 @@ export const sectionCardPedido = styled.section`
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 .TitleEscolhaPedido {
-    font-size: 4.8vw;
+    font-size: 4.5vw;
 }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
 .TitleEscolhaPedido {
-    font-size: 4.5vw;
+    font-size: 4vw;
 }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1920px) {
 .TitleEscolhaPedido {
-    font-size: 4.2vw;
+    font-size: 3.8vw;
 }
 }
 `;
@@ -317,7 +317,7 @@ flex-direction: row;
 margin: 2vw 2vw;
 h2 {
     width: 95%;
-    font-size: 3vw;
+    font-size:  2.8vw;
 }
 }
 
@@ -326,7 +326,7 @@ flex-direction: row;
 margin: 2vw 2vw;
 h2 {
     width: 93%;
-    font-size: 2vw;
+    font-size: 2.5vw;
 }
 }
 
@@ -335,7 +335,7 @@ flex-direction: row;
 margin: 2vw 2vw;
 h2 {
     width: 91%;
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 }
 `;
