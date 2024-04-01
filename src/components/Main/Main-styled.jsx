@@ -35,6 +35,7 @@ h1 {
     font-size: 8.2vw;
     color: white;
     font-weight: 800;
+    text-align: center;
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
@@ -59,6 +60,7 @@ h1 {
     h1 {
         font-size: 4.5vw;
         width: 58%;
+        text-align: start;
 
     }
 }
@@ -74,6 +76,7 @@ h1 {
     h1 {
         font-size: 5vw;
         width: 65%;
+        text-align: start;
 
     }
 }
@@ -89,6 +92,7 @@ h1 {
     h1 {
         font-size: 5.3vw;
         width: 65%;
+        text-align: start;
 
     }
 }
@@ -121,7 +125,6 @@ img {
 
 export const sectionCards = styled.section`
     width: 100%;
-    padding: 20px;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
@@ -129,7 +132,7 @@ export const sectionCards = styled.section`
     flex-wrap: wrap;
     flex-direction: column;
     background-color: #feb706;
-    padding: 5vw 0px 5vw 0px;
+    padding: 5vw 5vw;
         h2 {
         color: white;
         text-align: center;
@@ -171,7 +174,7 @@ export const sectionCards = styled.section`
 
 export const Card = styled.div`
     width: 55vw;
-    height: 75vw;
+    height: 65vw;
     margin-top: 20px;
     background-color: white;
     border-radius: 20px;
