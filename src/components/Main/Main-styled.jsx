@@ -175,6 +175,7 @@ export const Card = styled.div`
     background-color: white;
     border-radius: 20px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     img {
         width: 100%;
@@ -266,6 +267,7 @@ export const sectionCardPedido = styled.section`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 
     .TitleEscolhaPedido {
