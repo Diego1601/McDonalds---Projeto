@@ -33,7 +33,7 @@ h1 {
     width: 100%;
     font-size: 8.2vw;
     color: white;
-    font-weight: 800
+    font-weight: 800;
     text-align: center;
 }
 
@@ -301,7 +301,6 @@ export const divCardPedido = styled.div`
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
     flex-direction: column;
     margin: 5vw 5vw;
 
