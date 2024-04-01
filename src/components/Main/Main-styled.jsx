@@ -172,7 +172,7 @@ export const sectionCards = styled.section`
 export const Card = styled.div`
     width: 55vw;
     height: 75vw;
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: white;
     border-radius: 20px;
     display: flex;
@@ -189,18 +189,18 @@ export const Card = styled.div`
     }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    width: 25vw;
-    height: 30vw;
+    width: 28vw;
+    height: 33vw;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
-    width: 25vw;
-    height: 30vw;
+    width: 28vw;
+    height: 33vw;
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1920px) {
-    width: 25vw;
-    height: 30vw;
+    width: 28vw;
+    height: 33vw;
 }
 `;
 
