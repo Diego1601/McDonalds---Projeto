@@ -10,11 +10,9 @@ flex-direction: column;
 
 export const section = styled.section`
 width: 100%;
-padding: 20px;
 display: flex;
 justify-content: center;
 align-items: center;
-flex-wrap: wrap;
 flex-direction: column;
 margin-top: 10vw;
 `;
