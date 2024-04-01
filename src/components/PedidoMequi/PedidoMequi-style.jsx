@@ -44,7 +44,7 @@ export const CardPedido = styled.div`
     height: 25vw;
 
     p {
-        font-size: 1.5vw;
+        font-size: 1.2vw;
     }
 
 }
@@ -54,7 +54,7 @@ export const CardPedido = styled.div`
     height: 25vw;
 
     p {
-        font-size: 1.5vw;
+        font-size: 1vw;
     }
 
 }

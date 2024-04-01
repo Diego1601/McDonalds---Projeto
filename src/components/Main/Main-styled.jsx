@@ -34,7 +34,6 @@ h1 {
     width: 100%;
     font-size: 8.2vw;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
 }
 
@@ -271,7 +270,7 @@ export const sectionCardPedido = styled.section`
     justify-content: space-evenly;
 
     .TitleEscolhaPedido {
-        font-size: 5vw;
+        font-size: 5.2vw;
         color: white;
         width: 100%;
         text-align: center;
@@ -280,19 +279,19 @@ export const sectionCardPedido = styled.section`
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 .TitleEscolhaPedido {
-    font-size: 4.5vw;
+    font-size: 4.8vw;
 }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
 .TitleEscolhaPedido {
-    font-size: 4vw;
+    font-size: 4.5vw;
 }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1920px) {
 .TitleEscolhaPedido {
-    font-size: 3.5vw;
+    font-size: 4.2vw;
 }
 }
 `;
