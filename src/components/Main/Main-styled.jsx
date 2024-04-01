@@ -14,7 +14,6 @@ padding: 20px;
 display: flex;
 justify-content: center;
 align-items: center;
-flex-wrap: wrap;
 flex-direction: column;
 margin-top: 10vw;
 `;
@@ -45,6 +44,7 @@ h1 {
 
     h1 {
         font-size: 8.2vw;
+        text-align: center;
     }
 }
 
@@ -129,8 +129,8 @@ export const sectionCards = styled.section`
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
     flex-direction: column;
+    flex-wrap: wrap;  
     background-color: #feb706;
     padding: 5vw 5vw;
         h2 {
@@ -179,6 +179,7 @@ export const Card = styled.div`
     background-color: white;
     border-radius: 20px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     img {
         width: 100%;
@@ -191,18 +192,18 @@ export const Card = styled.div`
     }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    width: 25vw;
-    height: 30vw;
+    width: 28vw;
+    height: 33vw;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
-    width: 25vw;
-    height: 30vw;
+    width: 28vw;
+    height: 33vw;
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1920px) {
-    width: 25vw;
-    height: 30vw;
+    width: 28vw;
+    height: 33vw;
 }
 `;
 
@@ -270,6 +271,7 @@ export const sectionCardPedido = styled.section`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 
     .TitleEscolhaPedido {
@@ -301,12 +303,10 @@ export const sectionCardPedido = styled.section`
 
 export const divCardPedido = styled.div`
     width: 95%;
-    margin: 10px;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
     flex-direction: column;
     margin: 5vw 5vw;
 
